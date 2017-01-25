@@ -5,7 +5,7 @@ package edu.gatech.oad.antlab.person;
  *  returns their name and a
  *  modified string 
  *  
- *  @author Bob
+ *  @author Marcus
  *  @version 1.1
  */
 public class Person5 {
@@ -29,9 +29,21 @@ public class Person5 {
 	 * @param input the string to be modified
 	 * @return the modified string
 	 */
-	private String calc(String input) {
+	private String calc(String inputString) {
 	  //Person 5 put your implementation here
-	  return null;
+
+		//Create array of characters from string.
+
+		char[] charArray = inputString.toCharArray();
+		String newString = ""
+		for (int j = 0; j < charArray.length: j++) {
+			c = charArray[(j + 2) % charArray.length];
+			newString = newString + String.valueOf(c);
+		}
+
+		//I should throw an error if the input is not a string, but this isn't the assignment :)
+
+	  return newString;
 	}
 	
 	/**

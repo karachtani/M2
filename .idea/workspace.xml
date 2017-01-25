@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3fb87d06-b344-4c36-9642-0def072d974a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/gatech/oad/antlab/pkg1/AntLabMain.java" afterPath="$PROJECT_DIR$/src/main/java/edu/gatech/oad/antlab/pkg1/AntLabMain.java" />
-    </list>
+    <list default="true" id="3fb87d06-b344-4c36-9642-0def072d974a" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -68,11 +66,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AntLabMain.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AntLabMain.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/gatech/oad/antlab/pkg1/AntLabMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="68" column="44" lean-forward="true" selection-start-line="68" selection-start-column="44" selection-end-line="68" selection-end-column="44" />
+            <state relative-caret-position="313">
+              <caret line="75" column="41" lean-forward="true" selection-start-line="75" selection-start-column="41" selection-end-line="75" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readme.p1.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/readme.p1.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="24" lean-forward="true" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -95,6 +103,7 @@
         <option value="$PROJECT_DIR$/src/main/java/edu/gatech/oad/antlab/person/Person5.java" />
         <option value="$PROJECT_DIR$/readme.p5.txt" />
         <option value="$PROJECT_DIR$/src/main/java/edu/gatech/oad/antlab/pkg1/AntLabMain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/gatech/oad/antlab/pkg1/readme.p1.txt" />
       </list>
     </option>
   </component>
@@ -266,6 +275,7 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="RunManager">
@@ -516,8 +526,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/gatech/oad/antlab/pkg1/AntLabMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="68" column="44" lean-forward="true" selection-start-line="68" selection-start-column="44" selection-end-line="68" selection-end-column="44" />
+        <state relative-caret-position="313">
+          <caret line="75" column="41" lean-forward="true" selection-start-line="75" selection-start-column="41" selection-end-line="75" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.p1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="24" lean-forward="true" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
           <folding />
         </state>
       </provider>

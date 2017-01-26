@@ -17,7 +17,7 @@ public class Person4 {
      * @param pname the person's real name
      */
   public Person4(String pname) {
-    name = pname;
+      name = pname;
   }
     /**
      * This method should return a string
@@ -30,8 +30,14 @@ public class Person4 {
      * @return the modified string
      */
     private String calc(String input) {
-      //Person 4 put your implementation here
-      return null;
+        String new_string = "";
+
+        for( int i = 0; i < input.length(); i++ )
+        {
+            new_string += input.charAt( i ) + 1;
+        }
+
+        return new_string;
     }
     
     /**
@@ -43,7 +49,7 @@ public class Person4 {
      *         object
      */
     public String toString(String input) {
-      return name + calc(input);
+        return name + calc(input);
     }
 
 }

@@ -36,8 +36,8 @@ public class Person5 {
 
 		char[] charArray = inputString.toCharArray();
 		String newString = "";
-		for (int j = 0; j < charArray.length(); j++) {
-			c = charArray[(j + 2) % charArray.length()];
+		for (int j = 0; j < charArray.length; j++) {
+			char c = charArray[(j + 2) % charArray.length];
 			newString = newString + String.valueOf(c);
 		}
 

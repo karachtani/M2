@@ -1,0 +1,26 @@
+defaultTasks 'jar'
+
+apply plugin: 'java'
+
+//set up some variables
+sourceCompatibility = 1.8
+version = '1.0'
+
+dependencies {
+    compile files('lib/resources.jar')
+}
+
+
+
+jar  {
+    manifest {
+        attributes  'Implementation-Title' : 'AntLabMain Quickstart' ,
+                'Implementation-Version' : version,
+                'Main-Class' : 'edu.gatech.oad.antlab.pkg1.AntLabMain',
+                'Class-Path' : 'lib/resources.jar'
+
+    }
+
+    destinationDir = file(".")
+    archiveName = 'AntLabMain.jar'
+}

@@ -7,8 +7,6 @@ jar              creates the executable jar file for this project
 
  */
 
-
-
 apply plugin: 'java'
 defaultTasks 'jar'
 sourceCompatibility = 1.8
@@ -35,16 +33,3 @@ jar  {
     destinationDir = file(".")
     archiveName = 'AntLabMain.jar'
 }
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -1,5 +1,6 @@
-defaultTasks: 'jar'
+
 apply plugin: 'java'
+defaultTasks 'jar'
 sourceCompatibility = 1.8
 version = '1.0'
 repositories {

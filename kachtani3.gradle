@@ -17,10 +17,9 @@ jar  {
         attributes  'Implementation-Title' : 'AntLabMain Quickstart' ,
                 'Implementation-Version' : version,
                 'Main-Class' : 'edu.gatech.oad.antlab.pkg1.AntLabMain',
-                'Class-Path' : 'lib/resources.jar'
+                'Class-Path' : '../../lib/resources.jar'
 
     }
 
-    destinationDir = file(".")
     archiveName = 'AntLabMain.jar'
 }
